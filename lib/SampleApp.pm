@@ -26,7 +26,6 @@ config 'Plugin::Session::Store::Model' => {
 };
 
 config 'Plugin::Authentication::Credential::LDAP' => {
-    host  => '127.0.0.1',
     base  => 'ou=People,dc=mix3,dc=org',
     group => 'cn=sample,ou=Project,dc=mix3,dc=org',
 };

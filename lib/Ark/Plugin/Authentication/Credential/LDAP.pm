@@ -27,7 +27,7 @@ has host => (
    lazy     => 1,
    default  => sub {
       my $self = shift;
-      $self->class_config->{host};
+      $self->class_config->{host} || '127.0.0.1';
    },
 );
 
